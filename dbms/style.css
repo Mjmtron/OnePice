@@ -1,0 +1,75 @@
+@font-face {
+	font-family: 'OP';
+	src: url(OnePiece-zAqL.ttf);
+}
+.font{
+    font-family:'OP';
+    font-size: 600%;
+	font-weight: 500;
+	text-decoration: underline;
+}
+.font1{
+    font-family:'OP';
+    font-size: 500%;
+	font-weight: 500;
+	text-decoration: underline;
+}
+.font2{
+    font-family:'OP';
+    font-size: 20px;
+}
+
+.container{
+	flex-wrap: wrap;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(120deg,red,rgb(166, 0, 255));
+	width: 80%;
+	height: 80%;
+	
+}
+
+
+input[type="text"],input[type="password"]{
+	display: flex;
+	margin-top: 20px;
+	height: 45px;
+	width: 69%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: rgb(250, 240, 240);
+	padding-left: 30px;
+	border-radius: 50px;
+	transition: 0.7s;
+}
+input[type="text"]:hover,input[type="password"]:hover{
+	width:70%;
+	font-size: x-large;
+}
+
+
+.register_page{
+	height: 900px;
+	width: 100%;
+	padding-left: 5%;
+	padding-top: 25%;
+	background: linear-gradient(150deg,black,rgb(251, 246, 246));
+
+}
+.register{
+	text-align: right;
+	width: 90%;
+}
+.LOGIN{
+	font-family:'OP';
+	color: rgb(191, 255, 0);
+	text-decoration: underline;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.LOGIN:hover{
+	color: black;
+	text-decoration: underline;
+}

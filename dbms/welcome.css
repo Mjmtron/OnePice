@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'OP';
+	src: url(OnePiece-zAqL.ttf);
+}
+.font{
+    font-family:'OP';
+    font-size: 35px;
+}
+.font1{
+    font-family:'OP';
+    font-size: 200%;
+}
